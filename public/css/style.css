@@ -74,7 +74,11 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-style: italic;
+<<<<<<< HEAD
     color: black;
+=======
+    color:black;
+>>>>>>> f272a38485f2d2394b00b9b95785c402db841ea3
     font-size:20px;
 }
 
