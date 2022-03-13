@@ -59,7 +59,7 @@ app.get("*", (req, res) => {
 })
 
 app.use("/", (req, res) => {
-    res.json("./src/index.js");
+    res.json({message: "hello"});
 });
 
 app.listen(port, () => {
