@@ -58,7 +58,9 @@ app.get("*", (req, res) => {
     })
 })
 
-// app.use("./api/product.js");
+app.use("/", (req, res) => {
+    res.json("./src/index.js");
+});
 
 app.listen(port, () => {
     console.log("Server is up and running on port: ", port);
