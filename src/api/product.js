@@ -4,9 +4,9 @@ const router = express.Router();
 /**
  * Get product list from
  * 
- * @return product list | empty 
+ * @return product list | empty.
  */
-router.get("/",async ( req, res) => {
+router.get("/" , async ( req, res) => {
     try {
         res.json({ 
             status: 200,

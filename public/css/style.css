@@ -74,7 +74,7 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-style: italic;
-    color:white;
+    color: black;
     font-size:20px;
 }
 
@@ -86,7 +86,7 @@ h2 {
   height: 120px;
   padding: 2rem;
   font-size: 44px;
-  background-color: #fafafa;
+  background-color: white;
   font-weight: bold;
 
 }

@@ -1,5 +1,6 @@
+// import express from 'express';
 const express = require('express');
-const product = require('./api/product.js')
+const product = require('./api/product.js');
 const hbs = require("hbs");
 const path = require("path");
 const app = express();
@@ -57,7 +58,7 @@ app.get("*", (req, res) => {
     })
 })
 
-app.use("./api/product.js",product);
+// app.use("./api/product.js");
 
 app.listen(port, () => {
     console.log("Server is up and running on port: ", port);
