@@ -1,9 +1,9 @@
 // import express from 'express';
 const express = require('express');
-const product = require('./api/product.js');
+// const product = require('./api/product.js');
 const hbs = require("hbs");
 const path = require("path");
-const app = express();
+const index = express();
 
 const weatherData = require('../utils/weatherData');
 
@@ -59,7 +59,7 @@ app.get("*", (req, res) => {
 })
 
 app.use("/", (req, res) => {
-    res.json({message: "hello"});
+    res.json("./src./index.js",index);
 });
 
 app.listen(port, () => {
